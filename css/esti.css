@@ -1,0 +1,90 @@
+body{
+	background-size: 100%;
+	background-color: #FFFFFF;
+	
+
+}
+
+header{
+	background-color: #5a114b; /*color de fondo 762C93*/
+	color: white; /*color de texto*/
+	text-align: center; /*alineacion de texto*/
+	padding: 5px;
+	font-size: 40px;
+	width: 100%;
+	font-family: verdana;
+}
+
+
+nav{
+	line-height: 30px;
+	background-color: #5a114b; /*color de fondo del nav 8E1B58*/
+	color:white;
+	height: 100vh; /*altura de la  caja nav*/
+	width: 20%;
+	float: left; /*flote a la izquierda*/
+	padding: 5px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	font-family: Times new roman, sans-serif;
+}
+
+nav a:hover{
+	/*estoy configurando los enlaces cuando los clickeo*/
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 800px;
+	align-content: center;
+	float: center;
+	padding: 10px;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+	padding: 0px 150px 0 px 150px;
+	font-family: Times new roman, sans-serif;
+
+}
+
+
+
+footer{
+	background-color: #5a114b; /*762C93*/
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+
+main .fondo img:hover{
+	/*que cuando le paso el cursor por encima a las img*/
+	transform: scale(1.05);
+}
